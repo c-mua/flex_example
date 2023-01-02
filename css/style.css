@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    border: 4px dotted blue;
+    align-items: center;
+    height: 100px;
+    width: auto;
+    justify-content: space-evenly;
+    background-color: peachpuff;
+}
+
+.container > div {
+    box-sizing: border-box;
+    height: 60px;
+    width: 60px;
+    border: 8px solid black;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px 0;;
+}
+
+.one {
+    box-sizing: border-box;
+    align-self: center;
+    background-color: aqua;
+}
+
+.two {
+    align-self: flex-start;
+    background-color: orange;
+    color: green;
+
+}
+
+.three {
+    align-self: flex-end;
+    background-color: purple;
+    color: white;
+}
+
+.block {
+    box-sizing: border-box;
+    height: 100px;
+    width: auto;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+}
